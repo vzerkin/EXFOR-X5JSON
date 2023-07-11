@@ -1,0 +1,227 @@
+  {"ENTRY":"D6410", "updated":20230214, "TransID":"D138", "TransDate":20230529
+   ,"generated":{"format":"x5json.0.1.4"  ,"now":"2023-07-11T13:17:15.900Z" 
+     ,"program":"exfor2x5z, by V.Zerkin, IAEA-NDS, 2019-2023, ver.2023-06-27" }
+   ,"y1":2021,"a1":"B.N.Joshi+","r1":"J,NP/A,1016,122320,2021"
+   ,"ref":"Jour: Nuclear Physics, Section A, Vol.1016, p.122320 (2021)"
+   ,"title":"Direct 16O-cluster knockout from 24Mg(g.s.)"
+   ,"x4subents":[
+   {"SUBENT":"D6410001", "isub":1, "compiled":20230214, "TransID":"D138", "TransDate":20230529
+    ,"BIB":{
+      "TITLE":[
+	{"x4pointer":" "
+	,"x4code":null
+	,"x4freetext":["Direct 16O-cluster knockout from 24Mg(g.s.)"]
+	}
+      ]
+     ,"AUTHOR":[
+	{"x4pointer":" "
+	,"x4codes":[{"i":1,"ini":"B.N.","nam":"Joshi"}
+	    ,{"i":2,"ini":"A.K.","nam":"Jain"}
+	    ,{"i":3,"ini":"D.C.","nam":"Biswas"}
+	    ,{"i":4,"ini":"B.V.","nam":"John"}
+	    ,{"i":5,"ini":"Y.K.","nam":"Gupta"}
+	    ,{"i":6,"ini":"L.S.","nam":"Danu"}
+	    ,{"i":7,"ini":"R.P.","nam":"Vind"}
+	    ,{"i":8,"ini":"G.K.","nam":"Prajapati"}
+	    ,{"i":9,"ini":"S.","nam":"Mukhopadhyay"}
+	    ,{"i":10,"ini":"N.","nam":"Kumar"}]
+	}
+      ]
+     ,"INSTITUTE":[
+	{"x4pointer":" "
+	,"x4codes":[{"code":"3INDTRM", "dict":"INSTITUTE", "idict":3,"hlp":"Bhabha Atomic Research Centre, Trombay, Mumbai, India"}]
+	}
+      ]
+     ,"REFERENCE":[
+	{"x4pointer":" "
+	,"x4codes":[{"code":"J,NP/A,1016,122320,2021","stdFileName":"J,NP_A,1016,122320,2021"
+		,"year":2021,"typ":"J","ref":"J,NP/A","vol":"1016","p":"122320"
+		,"shortRef":"Jour: Nuclear Physics, Section A, Vol.1016, p.122320 (2021)"}]
+	}
+      ]
+     ,"FACILITY":[
+	{"x4pointer":" "
+	,"x4codes":[{"code":"VDGT", "dict":"FACILITY", "idict":18,"hlp":"Tandem van de Graaff"}
+	    ,{"code":"3INDTRM", "dict":"INSTITUTE", "idict":3,"hlp":"Bhabha Atomic Research Centre, Trombay, Mumbai, India"}]
+	,"x4freetext":[" 14UD BARC-TIFR Pelletron LINAC facility"]
+	}
+      ]
+     ,"SAMPLE":[
+	{"x4pointer":" "
+	,"x4code":null
+	,"x4freetext":["Natural Mg target of 250 ug/cm2 thickness sandwiched"
+		,"between gold layers of 300 and 100 ug/cm2 thickness."]
+	}
+      ]
+     ,"DETECTOR":[
+	{"x4pointer":" "
+	,"x4codes":[{"code":"TELES", "dict":"DETECTOR", "idict":22,"hlp":"Counter telescope"}
+	    ,{"code":"IOCH", "dict":"DETECTOR", "idict":22,"hlp":"Ionization chamber"}
+	    ,{"code":"SI", "dict":"DETECTOR", "idict":22,"hlp":"Silicon detector"}]
+	,"x4freetext":[" Telescopes consisting of hybrid delta E"
+		,"gas detector backed by 300 um silicon E-detector used"
+		,"to detect the two 16O in coincidence."]
+	}
+	,{"x4pointer":" "
+	,"x4codes":[{"code":"SI", "dict":"DETECTOR", "idict":22,"hlp":"Silicon detector"}]
+	,"x4freetext":[" A monitor detector placed at forward angle"
+		,"20 degree with respect to beam axis to monitored the"
+		,"beam current."]
+	}
+      ]
+     ,"METHOD":[
+	{"x4pointer":" "
+	,"x4codes":[{"code":"COINC", "dict":"METHOD", "idict":21,"hlp":"Coincidence"}]
+	,"x4freetext":[" Two 16O detected in coincidence."]
+	}
+      ]
+     ,"ERR-ANALYS":[
+	{"x4pointer":" "
+	,"x4code":{"header":"DATA-ERR"
+	     ,"headerHelp":"Error in value of quantity, defined under ERR-ANALYS"}
+	,"x4freetext":[" No information on sources of uncertainties."]
+	}
+      ]
+     ,"STATUS":[
+	{"x4pointer":" "
+	,"x4codes":[{"code":"APRVD", "dict":"STATUS", "idict":16,"hlp":"Approved by author"}]
+	,"x4freetext":[" Approved by B.N.Joshi (2023-02-28)"]
+	}
+      ]
+     ,"HISTORY":[
+	{"x4pointer":" "
+	,"x4code":{"code":"20220210R", "date":"20220210", "act":"R", "dict":"HISTORY", "idict":15
+	     ,"actHelp":"Data received at the data center"}
+	,"x4freetext":[" Data received from Author"]
+	}
+	,{"x4pointer":" "
+	,"x4code":{"code":"20230214C", "date":"20230214", "act":"C", "dict":"HISTORY", "idict":15
+	     ,"actHelp":"Compiled at the data center"}
+	,"x4freetext":[" VT+On."]
+	}
+      ]
+    }
+   }
+  ,{"SUBENT":"D6410002", "isub":2, "compiled":20230214, "TransID":"D138", "TransDate":20230529
+    ,"BIB":{
+      "REACTION":[
+	{"x4pointer":" "
+	,"x4code":{"code":"12-MG-24(8-O-16,X+8-O-16)8-O-16,,DA/DA/DE,O16/O16/O16"
+	    ,"c4reac":"(8-O-16,X+8-O-16),DA/DA/DE,O16/O16/O16"
+	    ,"combi":"a"
+	    ,"reacs": [
+	    {"code":"12-MG-24(8-O-16,X+8-O-16)8-O-16,,DA/DA/DE,O16/O16/O16"
+		,"Reac":"8-O-16,X+8-O-16"
+		,"SF1":"12-MG-24","Targ":{"code":"12-MG-24","nam":"Mg-24","ZA":12024}
+		,"SF2":"8-O-16","Proj":{"code":"8-O-16","nam":"O-16","ZA":8016}
+		,"SF3":"X+8-O-16"
+		,"SF4":"8-O-16","Prod":{"code":"8-O-16","nam":"O-16","ZA":8016}
+		,"SF6":"DA/DA/DE"
+		,"SF7":"O16/O16/O16"
+		,"SF58":",DA/DA/DE,O16/O16/O16","Quant":"","BasicUnits":"?","QuantHlp":""
+	    }]}
+	}
+      ]
+     ,"SAMPLE":[
+	{"x4pointer":" "
+	,"x4code":{"code":"orig::12-MG-24,NAT=0.79"}
+	}
+      ]
+     ,"ANG-SEC":[
+	{"x4pointer":" "
+	,"x4code":{"code":"orig::ANG1,8-O-16"}
+	}
+	,{"x4pointer":" "
+	,"x4code":{"code":"orig::ANG2,8-O-16"}
+	}
+      ]
+     ,"MISC-COL":[
+	{"x4pointer":" "
+	,"x4codes":[{"code":"MISC"}]
+	,"x4freetext":[" Counts, from which the cross sections were"
+		," derived by multiplying 4.243635 (119 MeV) or 4.8"
+		," (127 MeV)"]
+	}
+      ]
+     ,"STATUS":[
+	{"x4pointer":" "
+	,"x4codes":[{"code":"TABLE", "dict":"STATUS", "idict":16,"hlp":"Data presented by authors"}]
+	,"x4freetext":[" Fig.9 of Nucl.Phys.A1016(2021)122320"]
+	}
+      ]
+    }
+    ,"DATA":{"ncols":7, "nrows":32
+      ,"x4headers":[
+       {"icol":0, "header":"EN", "units":"MEV", "pointer":" "
+	,"headerHelp":"Energy of incident projectile, laboratory system", "pFlag":"1000000"
+	,"unitsHelp":"MeV","familyCode":"E","convFc":1000000.0,"basicUnits":"EV"}
+      ,{"icol":1, "header":"ANG1", "units":"ADEG", "pointer":" "
+	,"headerHelp":"1st angle, definition given in BIB Section", "pFlag":"1000000"
+	,"unitsHelp":"angular Degrees","familyCode":"A","convFc":1.0,"basicUnits":"ADEG"}
+      ,{"icol":2, "header":"ANG2", "units":"ADEG", "pointer":" "
+	,"headerHelp":"2nd angle, definition given in BIB section", "pFlag":"1000000"
+	,"unitsHelp":"angular Degrees","familyCode":"A","convFc":1.0,"basicUnits":"ADEG"}
+      ,{"icol":3, "header":"E", "units":"MEV", "pointer":" "
+	,"headerHelp":"Energy of outgoing particle, lab. system", "pFlag":"1000000"
+	,"unitsHelp":"MeV","familyCode":"E","convFc":1000000.0,"basicUnits":"EV"}
+      ,{"icol":4, "header":"DATA", "units":"MUB/SR2MEV", "pointer":" "
+	,"headerHelp":"Value of quantity specified under REACTION", "pFlag":"0001000"
+	,"unitsHelp":"microbarns per steradian**2 MeV","familyCode":"D3A","convFc":1.0E-12,"basicUnits":"MUB/SR2MEV"}
+      ,{"icol":5, "header":"DATA-ERR", "units":"MUB/SR2MEV", "pointer":" "
+	,"headerHelp":"Error in value of quantity, defined under ERR-ANALYS", "pFlag":"0009110"
+	,"unitsHelp":"microbarns per steradian**2 MeV","familyCode":"D3A","convFc":1.0E-12,"basicUnits":"MUB/SR2MEV"}
+      ,{"icol":6, "header":"MISC", "units":"NO-DIM", "pointer":" "
+	,"headerHelp":"Miscellaneous Information, defined under MISC-COL.", "pFlag":"0000000"
+	,"unitsHelp":"no Dimensions","familyCode":"NO","convFc":1.0,"basicUnits":"NO-DIM"}
+      ]
+      ,"datacols":[
+	 ["EN"        ,"ANG1"      ,"ANG2"      ,"E"         ,"DATA"      ,"DATA-ERR"  ,"MISC"      ]
+	,["MEV"       ,"ADEG"      ,"ADEG"      ,"MEV"       ,"MUB/SR2MEV","MUB/SR2MEV","NO-DIM"    ]
+	,[" "         ," "         ," "         ," "         ," "         ," "         ," "         ]]
+      ,"data":[
+	 [119,40.9,-40.9,46,4.2,4.2,1]
+	,[119,40.9,-40.9,47,21.2,9.5,5]
+	,[119,40.9,-40.9,48,84.9,19.1,20]
+	,[119,40.9,-40.9,49,135.8,24,32]
+	,[119,40.9,-40.9,50,271.6,33.9,64]
+	,[119,40.9,-40.9,51,674.7,53.5,159]
+	,[119,40.9,-40.9,52,1094.9,68.2,258]
+	,[119,40.9,-40.9,53,1570.1,81.6,370]
+	,[119,40.9,-40.9,54,1650.8,83.7,389]
+	,[119,40.9,-40.9,55,1315.5,74.7,310]
+	,[119,40.9,-40.9,56,899.7,61.8,212]
+	,[119,40.9,-40.9,57,424.4,42.4,100]
+	,[119,40.9,-40.9,58,207.9,29.7,49]
+	,[119,40.9,-40.9,59,63.7,16.4,15]
+	,[119,40.9,-40.9,60,12.7,7.4,3]
+	,[119,40.9,-40.9,61,8.5,6,2]
+	,[119,40.9,-40.9,62,4.2,4.2,1]
+	,[127,41.3,-41.3,50,28.8,11.8,6]
+	,[127,41.3,-41.3,51,43.2,14.4,9]
+	,[127,41.3,-41.3,52,91.2,20.9,19]
+	,[127,41.3,-41.3,53,278.4,36.6,58]
+	,[127,41.3,-41.3,54,475.2,47.8,99]
+	,[127,41.3,-41.3,55,777.6,61.1,162]
+	,[127,41.3,-41.3,56,1156.8,74.5,241]
+	,[127,41.3,-41.3,57,1435.2,83.1,299]
+	,[127,41.3,-41.3,58,1113.6,73.1,232]
+	,[127,41.3,-41.3,59,844.8,63.7,176]
+	,[127,41.3,-41.3,60,408,44.3,85]
+	,[127,41.3,-41.3,61,244.8,34.3,51]
+	,[127,41.3,-41.3,62,91.2,20.9,19]
+	,[127,41.3,-41.3,63,33.6,12.7,7]
+	,[127,41.3,-41.3,64,9.6,6.8,2]]}
+  ,"datasets":[
+{"iDataset":0, "DatasetID":"D6410002", "Pointer":" "
+ ,"Subent":"D6410002", "compiled":20230214
+,"year1":2021, "author1ini":"B.N.", "author1":"Joshi"
+, "zTarg1":12, "targ1":"Mg-24", "proj1":"O-16", "emis1":"X+8-O-16", "MF":-1, "MT":-1, "nExpectedArgs":-1
+, "IndepVarFamilyCode":"?", "getYFormulaStr":"y=y(x1)"
+, "ReactionType":"?", "quant":"?"
+, "reacode":"12-MG-24(8-O-16,X+8-O-16)8-O-16,,DA/DA/DE,O16/O16/O16"
+, "compNotes":["Unknown reaction type"]
+}
+   ]
+   }
+  ]
+ }
